@@ -14,24 +14,24 @@ const satisfy = Rock_Salt({
 export default function ProjectHeros() {
     return(
       <div>
-
+        <div className='xl:block hidden'>
       <Meteors number={50}/>
+      </div>
+        <div className="h-screen w-fit flex items-center mx-4">
 
-        <div className="h-screen w-fit flex items-center px-4">
-
-        <div className="flex flex-col md:p-0 p-4 xl:ml-14">
+        <div className="flex justify-center items-center flex-col md:p-0 xl:ml-14">
           <div>
             <div>
-              <div className="flex w-fit px-1">
-              <BlurFadeText text="👋 I'm" delay={0.2} className="xl:text-9xl flex text-8xl text-white font-[800] w-fit opacity-95 ">
+              <div className="md:flex w-fit px-1">
+              <BlurFadeText text="👋 I'm" delay={0.2} className="xl:text-9xl xl:mr-4 text-8xl text-white font-[800] w-fit opacity-95 ">
            
               </BlurFadeText>
-              <BlurFadeText text="Harsh" delay={0.2} className={`xl:text-8xl ml-4 xl:mt-4  text-purple-400 ${satisfy.variable} font-caveat flex text-6xl mt-4  font-[1000] w-fit opacity-95 `}>
+              <BlurFadeText text="Harsh" delay={0.2} className={`xl:text-8xl  ml-4 text-purple-400 ${satisfy.variable} font-caveat flex text-6xl mt-12 xl:mt-2  font-[1000] w-fit opacity-95 `}>
            
            </BlurFadeText>
            </div>
               <TextGenerateEffect
-                className="opacity-95 w-fit px-2 xl:w-[800px]"
+                className="opacity-95 w-fit  px-2 xl:w-[800px]"
                 words={words}
               />
               <br />
