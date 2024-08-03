@@ -1,94 +1,169 @@
 import { Icons } from "@/components/icons";
 
 export const Content = [
-    {
-      title: "SIH 2022 Winner",
-      description: (
-<div className="container xl:mx-auto p-4">
-  <ul className="space-y-2">
-  <h2 className="text-xl font-bold ">Passion for Hackathons 🛠️</h2>
-    <li className="flex items-center">I am passionate about participating in hackathons 💡 and creating impactful projects for the community. 🛠️</li>
-    <li className="flex items-center">I have been part of numerous hackathons, proudly winning some of them. 🏆</li>
-    <li className="flex items-center">As the team leader of CoderCrew2 (SIH 2022 Winner), I have honed my leadership skills. 🥇</li>
-  </ul>
+  {
+    title: "SIH 2022 Winner",
+    description: (
+      <div className="container xl:mx-auto p-4">
+        <ul className="space-y-2">
+          <h2 className="text-xl font-bold ">Passion for Hackathons 🛠️</h2>
+          <li className="flex items-center">
+            I am passionate about participating in hackathons 💡 and creating
+            impactful projects for the community. 🛠️
+          </li>
+          <li className="flex items-center">
+            I have been part of numerous hackathons, proudly winning some of
+            them. 🏆
+          </li>
+          <li className="flex items-center">
+            As the team leader of CoderCrew2 (SIH 2022 Winner), I have honed my
+            leadership skills. 🥇
+          </li>
+        </ul>
 
-  <h2 className="text-xl font-bold mt-4">Teamwork and Leadership 💪</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">Collaborating with diverse teams 👥 has taught me the value of teamwork and effective collaboration. 🤝</li>
-    <li className="flex items-center">Leading my team has refined my leadership abilities and project management skills. 💼</li>
-  </ul>
+        <h2 className="text-xl font-bold mt-4">Teamwork and Leadership 💪</h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            Collaborating with diverse teams 👥 has taught me the value of
+            teamwork and effective collaboration. 🤝
+          </li>
+          <li className="flex items-center">
+            Leading my team has refined my leadership abilities and project
+            management skills. 💼
+          </li>
+        </ul>
 
-  <h2 className="text-xl font-bold mt-8">Skills Developed through Hackathons 🔧</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">Hackathons have pushed me to excel under pressure and manage time efficiently. ⏱️</li>
-    <li className="flex items-center">I have mastered the art of quickly prototyping and building MVPs. 🏗️</li>
-    <li className="flex items-center">Rapidly learning new technologies and applying them to projects is my forte. 🧠</li>
-    <li className="flex items-center">I am constantly growing as a developer thanks to these invaluable experiences. 🌟</li>
-  </ul>
-</div>
-      ),
-      badge: "💡 Hackathons & Competitions",
-      image:
-        "/sih2.jpg",
-    },
-    {
-      title: "Active Community Member",
-      description: (
-<div className="container xl:mx-auto p-4 ">
-  <h2 className="text-xl font-bold ">Active Community Member 👥</h2>
-  <p>I am a dedicated member of the Pune tech community, regularly attending meetups to connect with like-minded individuals and stay updated on industry trends. These interactions have been instrumental in expanding my professional network and fostering valuable relationships. 🚀</p>
+        <h2 className="text-xl font-bold mt-8">
+          Skills Developed through Hackathons 🔧
+        </h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            Hackathons have pushed me to excel under pressure and manage time
+            efficiently. ⏱️
+          </li>
+          <li className="flex items-center">
+            I have mastered the art of quickly prototyping and building MVPs. 🏗️
+          </li>
+          <li className="flex items-center">
+            Rapidly learning new technologies and applying them to projects is
+            my forte. 🧠
+          </li>
+          <li className="flex items-center">
+            I am constantly growing as a developer thanks to these invaluable
+            experiences. 🌟
+          </li>
+        </ul>
+      </div>
+    ),
+    badge: "💡 Hackathons & Competitions",
+    image: "/sih2.jpg",
+  },
+  {
+    title: "Active Community Member",
+    description: (
+      <div className="container xl:mx-auto p-4 ">
+        <h2 className="text-xl font-bold ">Active Community Member 👥</h2>
+        <p>
+          I am a dedicated member of the Pune tech community, regularly
+          attending meetups to connect with like-minded individuals and stay
+          updated on industry trends. These interactions have been instrumental
+          in expanding my professional network and fostering valuable
+          relationships. 🚀
+        </p>
 
-  <h2 className="text-xl font-bold mt-4">Passion for Knowledge Sharing 💡</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">I actively participate in meetups to share my knowledge and learn from others. 🤝</li>
-    <li className="flex items-center">I have contributed to insightful discussions and collaborative projects at various meetups. 💬</li>
-    <li className="flex items-center">My involvement in the community has helped me develop strong interpersonal and communication skills.🗣️</li>
-  </ul>
+        <h2 className="text-xl font-bold mt-4">
+          Passion for Knowledge Sharing 💡
+        </h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            I actively participate in meetups to share my knowledge and learn
+            from others. 🤝
+          </li>
+          <li className="flex items-center">
+            I have contributed to insightful discussions and collaborative
+            projects at various meetups. 💬
+          </li>
+          <li className="flex items-center">
+            My involvement in the community has helped me develop strong
+            interpersonal and communication skills.🗣️
+          </li>
+        </ul>
 
-  <h2 className="text-xl font-bold mt-4">Building a Strong Network 🤝</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">Meetups have provided me with opportunities to connect with industry experts and potential mentors. 🌟</li>
-    <li className="flex items-center">I have built a strong professional network through consistent meetup attendance. 💼</li>
-    <li className="flex items-center">My ability to collaborate effectively has been enhanced by my involvement in diverse meetup communities. 👥</li>
-  </ul>
-</div>
+        <h2 className="text-xl font-bold mt-4">Building a Strong Network 🤝</h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            Meetups have provided me with opportunities to connect with industry
+            experts and potential mentors. 🌟
+          </li>
+          <li className="flex items-center">
+            I have built a strong professional network through consistent meetup
+            attendance. 💼
+          </li>
+          <li className="flex items-center">
+            My ability to collaborate effectively has been enhanced by my
+            involvement in diverse meetup communities. 👥
+          </li>
+        </ul>
+      </div>
+    ),
+    badge: "👥 Networking & Community",
+    image: "/tddmeetup.jpeg",
+  },
 
-      ),
-      badge: "👥 Networking & Community",
-      image:
-        "/tddmeetup.jpeg",
-    },
+  {
+    title: "Speaker and Mentor",
+    description: (
+      <div className="container xl:mx-auto p-4">
+        <h2 className="text-xl font-bold">
+          Community Engagement and Mentorship 🚀
+        </h2>
+        <p>
+          I am passionate about empowering the next generation of tech
+          enthusiasts. As an active member of various clubs and organizations, I
+          have dedicated my time to conducting engaging tech sessions for
+          students. My aim is to inspire and equip them with the necessary
+          skills to excel in the digital age. 🌟
+        </p>
 
-    {
-      title: "Speaker and Mentor",
-      description: (
-<div className="container xl:mx-auto p-4">
-  <h2 className="text-xl font-bold">Community Engagement and Mentorship 🚀</h2>
-  <p>I am passionate about empowering the next generation of tech enthusiasts. As an active member of various clubs and organizations, I have dedicated my time to conducting engaging tech sessions for students. My aim is to inspire and equip them with the necessary skills to excel in the digital age. 🌟</p>
+        <h2 className="text-xl font-bold mt-4">
+          Mentoring and Skill Development 🧑‍🏫
+        </h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            I have conducted numerous workshops and seminars on topics ranging
+            from programming fundamentals to advanced technologies. 📚
+          </li>
+          <li className="flex items-center">
+            By providing hands-on experience and guidance, I have helped
+            students develop a strong foundation in computer science. 💪
+          </li>
+          <li className="flex items-center">
+            I believe in fostering a collaborative learning environment where
+            students can thrive and reach their full potential. 🌱
+          </li>
+        </ul>
 
-  <h2 className="text-xl font-bold mt-4">Mentoring and Skill Development 🧑‍🏫</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">I have conducted numerous workshops and seminars on topics ranging from programming fundamentals to advanced technologies. 📚</li>
-    <li className="flex items-center">By providing hands-on experience and guidance, I have helped students develop a strong foundation in computer science. 💪</li>
-    <li className="flex items-center">I believe in fostering a collaborative learning environment where students can thrive and reach their full potential. 🌱</li>
-  </ul>
-
-  <h2 className="text-xl font-bold mt-4">Building a Tech Community 🤝</h2>
-  <ul className="space-y-2">
-    <li className="flex items-center">I have been instrumental in establishing and growing tech clubs, providing a platform for students to connect and learn together. 🎉</li>
-    <li className="flex items-center">Through my mentorship, I have inspired countless students to pursue careers in technology. 🚀</li>
-    <li className="flex items-center">I am committed to creating a supportive and inclusive community for aspiring technologists. 🤗</li>
-  </ul>
-</div>
-
-
-
-      ),
-      badge: "🧑‍🏫 Mentorship & Leadership",
-      image:
-        "/dsabootcamp.png",
-    },
-  ];
+        <h2 className="text-xl font-bold mt-4">Building a Tech Community 🤝</h2>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            I have been instrumental in establishing and growing tech clubs,
+            providing a platform for students to connect and learn together. 🎉
+          </li>
+          <li className="flex items-center">
+            Through my mentorship, I have inspired countless students to pursue
+            careers in technology. 🚀
+          </li>
+          <li className="flex items-center">
+            I am committed to creating a supportive and inclusive community for
+            aspiring technologists. 🤗
+          </li>
+        </ul>
+      </div>
+    ),
+    badge: "🧑‍🏫 Mentorship & Leadership",
+    image: "/dsabootcamp.png",
+  },
+];
 
 export const projects = [
   {
@@ -133,15 +208,15 @@ export const projects = [
       "A platform for developing, shipping, and running applications in containers, allowing for consistent environments across different development and deployment stages.",
     link: "https://www.docker.com",
   },
-]
-  
-export const project = [    {
+];
+
+export const project = [
+  {
     title: "Todofy",
     href: "https://github.com/ducheharsh/todo_app",
     dates: "Jan 2024 - Feb 2024",
     active: true,
-    description:
-      `Full-Stack Todo Application with Authentication
+    description: `Full-Stack Todo Application with Authentication
 
 User-centric task management platform.
 Secure authentication for private task lists.
@@ -156,7 +231,7 @@ Robust backend for reliable data management.`,
       "PostgreSQL",
       "Prisma",
       "TailwindCSS",
-      "Argon2"
+      "Argon2",
     ],
     links: [
       {
@@ -168,7 +243,7 @@ Robust backend for reliable data management.`,
         type: "Source",
         href: "https://github.com/ducheharsh/todo_app",
         icon: <Icons.github className="size-3" />,
-      }
+      },
     ],
     image: "",
     video:
@@ -179,8 +254,7 @@ Robust backend for reliable data management.`,
     href: "https://chatcollect.com",
     dates: "Jan 2024 - Feb 2024",
     active: true,
-    description:
-      `Minimalist Blogs is a sleek and simple blogging platform designed to provide essential blogging features with a clean interface. Users can create, publish, and manage their blogs effortlessly with functionalities are in development to enhance user experience`,
+    description: `Minimalist Blogs is a sleek and simple blogging platform designed to provide essential blogging features with a clean interface. Users can create, publish, and manage their blogs effortlessly with functionalities are in development to enhance user experience`,
     technologies: [
       "Hono.js",
       "React.js",
@@ -189,7 +263,6 @@ Robust backend for reliable data management.`,
       "Prisma",
       "TailwindCSS",
       "Cloudflare Workers",
-  
     ],
     links: [
       {
@@ -199,9 +272,9 @@ Robust backend for reliable data management.`,
       },
       {
         type: "Website",
-        href:"minimalistblogs-eventlys-projects.vercel.app/signup",
+        href: "minimalistblogs-eventlys-projects.vercel.app/signup",
         icon: <Icons.globe className="size-3" />,
-      }
+      },
     ],
     image: "",
     video:
@@ -240,8 +313,7 @@ Robust backend for reliable data management.`,
     href: "",
     dates: "Jan 2024 - Feb 2024",
     active: true,
-    description:
-      `Turn YouTube chaos into learning power. YouTubed transforms random playlists into structured courses, complete with progress tracking to keep you motivated. Take smart, time-stamped notes with our advanced editor. And with our AI-powered learning assistant, unlock the full potential of YouTube. Learn faster, achieve more.`,
+    description: `Turn YouTube chaos into learning power. YouTubed transforms random playlists into structured courses, complete with progress tracking to keep you motivated. Take smart, time-stamped notes with our advanced editor. And with our AI-powered learning assistant, unlock the full potential of YouTube. Learn faster, achieve more.`,
     technologies: [
       "Next.js",
       "Typescript",
@@ -263,11 +335,10 @@ Robust backend for reliable data management.`,
     video:
       "https://pub-9791152ac1134a02a51646c306b4738b.r2.dev/1722592723442018.mp4",
   },
-  
-]
+];
 
 export const words = `I'm a Full Stack Dev and an AI enthusiat 🔥
-  I love developing minimalist frontends with robust backends ♂︎ 
+  I love developing minimalist frontends with robust backends ♂︎
 
   (travelling is my jam 🌍✈️)
 `;
