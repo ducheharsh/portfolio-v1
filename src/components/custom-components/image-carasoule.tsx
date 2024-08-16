@@ -5,7 +5,7 @@ import { TracingBeam } from "../ui/tracing-beam";
 export default function ImageCarasoule() {
   return (
     <TracingBeam className="px-6 col-span-4 md:col-span-4 h-fit">
-      <div className="ml-12 antialiased pt-4 relative">
+      <div className="xl:ml-12 ml-2 antialiased pt-4 relative">
         {Content.map((item, index) => (
           <div
             key={`content-${index}`}
