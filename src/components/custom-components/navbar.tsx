@@ -13,7 +13,6 @@ import {
 } from "@/components/ui/tooltip";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 
-
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 const Icons = {
@@ -143,9 +142,7 @@ export function DockDemo() {
           <Separator orientation="vertical" className="h-full py-2" />
           <DockIcon>
             <Tooltip>
-              <TooltipTrigger asChild>
-
-              </TooltipTrigger>
+              <TooltipTrigger asChild></TooltipTrigger>
               <TooltipContent>
                 <p>Theme</p>
               </TooltipContent>

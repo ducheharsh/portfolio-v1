@@ -326,9 +326,14 @@ Robust backend for reliable data management.`,
     ],
     links: [
       {
-        type: "Post",
-        href: "https://www.linkedin.com/posts/harsh-duche_nights-buildspace-s5-activity-7218657921440620544-TWYG?utm_source=share&utm_medium=member_desktop",
-        icon: <Icons.linkedin className="size-3" />,
+        type: "Source",
+        href: "https://github.com/ducheharsh/youtubed",
+        icon: <Icons.github className="size-3" />,
+      },
+      {
+        type: "Website",
+        href: "https://youtubed-ten.vercel.app/",
+        icon: <Icons.globe className="size-3" />,
       },
     ],
     image: "",

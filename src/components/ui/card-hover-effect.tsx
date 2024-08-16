@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
@@ -12,7 +12,7 @@ export const MyTechStack = ({
   className,
 }: {
   items?: {
-    src:string;
+    src: string;
     title: string;
     description: string;
     link: string;
@@ -23,52 +23,51 @@ export const MyTechStack = ({
   const BLUR_FADE_DELAY = 0.04;
   return (
     <div className="pb-56">
-    <h1 className="text-6xl pt-56  px-6 font-bold text-white">My Tech Stack</h1>
-    <div
-      className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
-        className
-      )}
-    >
-      {items.map((item, idx) => (
-          <BlurFade
-          key={idx}
-          delay={BLUR_FADE_DELAY * 12 + idx * 0.05}
-        >
-        <Link
-          href={item?.link}
-          key={item?.link}
-          className="relative group  block p-2 h-full w-full"
-          onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}
-        >
-          <AnimatePresence>
-            {hoveredIndex === idx && (
-              <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
-                layoutId="hoverBackground"
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: 1,
-                  transition: { duration: 0.15 },
-                }}
-                exit={{
-                  opacity: 0,
-                  transition: { duration: 0.15, delay: 0.2 },
-                }}
-              />
-            )}
-          </AnimatePresence>
-          <Card>
-            <CardIcon imageSrc={item.src} />
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
-          </Card>
-        </Link>
-        </BlurFade>
-      ))}
-    </div>
-    <Stack/>
+      <h1 className="text-6xl pt-56  px-6 font-bold text-white">
+        My Tech Stack
+      </h1>
+      <div
+        className={cn(
+          "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+          className,
+        )}
+      >
+        {items.map((item, idx) => (
+          <BlurFade key={idx} delay={BLUR_FADE_DELAY * 12 + idx * 0.05}>
+            <Link
+              href={item?.link}
+              key={item?.link}
+              className="relative group  block p-2 h-full w-full"
+              onMouseEnter={() => setHoveredIndex(idx)}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              <AnimatePresence>
+                {hoveredIndex === idx && (
+                  <motion.span
+                    className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                    layoutId="hoverBackground"
+                    initial={{ opacity: 0 }}
+                    animate={{
+                      opacity: 1,
+                      transition: { duration: 0.15 },
+                    }}
+                    exit={{
+                      opacity: 0,
+                      transition: { duration: 0.15, delay: 0.2 },
+                    }}
+                  />
+                )}
+              </AnimatePresence>
+              <Card>
+                <CardIcon imageSrc={item.src} />
+                <CardTitle>{item.title}</CardTitle>
+                <CardDescription>{item.description}</CardDescription>
+              </Card>
+            </Link>
+          </BlurFade>
+        ))}
+      </div>
+      <Stack />
     </div>
   );
 };
@@ -84,7 +83,7 @@ export const Card = ({
     <div
       className={cn(
         "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
-        className
+        className,
       )}
     >
       <div className="relative z-50">
@@ -117,7 +116,7 @@ export const CardDescription = ({
     <p
       className={cn(
         "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
-        className
+        className,
       )}
     >
       {children}
@@ -127,7 +126,7 @@ export const CardDescription = ({
 
 export const CardIcon = ({
   className,
-  
+
   imageSrc,
 }: {
   className?: string;
@@ -141,7 +140,6 @@ export const CardIcon = ({
       )}
     >
       <img src={imageSrc} alt="logos" />
-
     </div>
   );
 };

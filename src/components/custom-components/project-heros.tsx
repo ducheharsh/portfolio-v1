@@ -30,7 +30,7 @@ export default function ProjectHeros() {
                 <BlurFadeText
                   text="Harsh"
                   delay={0.2}
-                  className={`xl:text-8xl  ml-4 text-purple-400 ${satisfy.variable} font-caveat flex text-6xl mt-12 xl:mt-2  font-[1000] w-fit opacity-95 `}
+                  className={`xl:text-9xl  ml-3 text-purple-400 ${satisfy.variable} font-sans flex text-8xl mt-6 md:mt-0 xl:mt-0  font-[800] w-fit opacity-95 `}
                 ></BlurFadeText>
               </div>
               <TextGenerateEffect

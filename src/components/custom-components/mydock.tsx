@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
+import { CalendarIcon, HomeIcon, MailIcon, PencilIcon, FileText } from "lucide-react";
 
 import { cn } from "@/utils/cn";
 import { buttonVariants } from "@/components/ui/button";
@@ -63,7 +63,16 @@ const Icons = {
 const DATA = {
   navbar: [
     { href: "#", icon: HomeIcon, label: "Home" },
-    { href: "https://codexperiences.hashnode.dev/", icon: PencilIcon, label: "Blog" },
+    {
+      href:"https://pub-9791152ac1134a02a51646c306b4738b.r2.dev/Resume.docx.pdf",
+      icon: FileText,
+      label:"Resume"
+    },
+    {
+      href: "https://codexperiences.hashnode.dev/",
+      icon: PencilIcon,
+      label: "Blog",
+    }
   ],
   contact: {
     social: {
@@ -95,57 +104,54 @@ export function MyDock() {
   return (
     <div className="relative  w-full">
       <div className="col-span-4 flex justify-center items-center">
-    <div className="fixed bottom-2 z-50">
-
-      <TooltipProvider>
-        <Dock direction="middle" >
-          {DATA.navbar.map((item) => (
-            <DockIcon key={item.label} >
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Link
-                    href={item.href}
-                    className={cn(
-                      buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12 rounded-full",
-                    )}
-                  >
-                    <item.icon className="size-5" />
-                  </Link>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>{item.label}</p>
-                </TooltipContent>
-              </Tooltip>
-            </DockIcon>
-          ))}
-          <Separator orientation="vertical" className="h-full" />
-          {Object.entries(DATA.contact.social).map(([name, social]) => (
-            <DockIcon key={name}>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Link
-                    href={social.url}
-                    className={cn(
-                      buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-20 rounded-full",
-                    )}
-                  >
-                    <social.icon className="size-5" />
-                  </Link>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>{name}</p>
-                </TooltipContent>
-              </Tooltip>
-            </DockIcon>
-          ))}
-
-
-        </Dock>
-      </TooltipProvider>
-    </div>
-    </div>
+        <div className="fixed bottom-2 z-50">
+          <TooltipProvider>
+            <Dock direction="middle">
+              {DATA.navbar.map((item) => (
+                <DockIcon key={item.label}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Link
+                        href={item.href}
+                        className={cn(
+                          buttonVariants({ variant: "ghost", size: "icon" }),
+                          "size-12 rounded-full",
+                        )}
+                      >
+                        <item.icon className="size-5" />
+                      </Link>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>{item.label}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </DockIcon>
+              ))}
+              <Separator orientation="vertical" className="h-full" />
+              {Object.entries(DATA.contact.social).map(([name, social]) => (
+                <DockIcon key={name}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Link
+                        href={social.url}
+                        className={cn(
+                          buttonVariants({ variant: "ghost", size: "icon" }),
+                          "size-20 rounded-full",
+                        )}
+                      >
+                        <social.icon className="size-5" />
+                      </Link>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>{name}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </DockIcon>
+              ))}
+            </Dock>
+          </TooltipProvider>
+        </div>
+      </div>
     </div>
   );
 }

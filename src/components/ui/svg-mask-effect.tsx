@@ -30,7 +30,7 @@ export const MaskContainer = ({
       if (containerRef.current) {
         containerRef.current.removeEventListener(
           "mousemove",
-          updateMousePosition
+          updateMousePosition,
         );
       }
     };
