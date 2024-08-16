@@ -212,6 +212,35 @@ export const projects = [
 
 export const project = [
   {
+    title: "ChatRooms",
+    href: "https://github.com/ducheharsh/ChatRooms_Websockets",
+    dates: "Jun 2024 - Jul 2024",
+    active: true,
+    description: `Real-time Chat Application with WebSockets
+    ChatRooms is an extensible and scalable chat application that leverages WebSockets for real-time communication. Whether you're building a public chat room, a private messaging feature, or any other chat-like functionality, this project provides a solid foundation.
+`,
+    technologies: [
+      "Next.js",
+      "WebSockets",
+      "Turborepo",
+      "Typescript",
+      "PostgreSQL",
+      "Prisma",
+      "TailwindCSS",
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/ducheharsh/ChatRooms_Websockets",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "",
+    video:
+      "https://pub-9791152ac1134a02a51646c306b4738b.r2.dev/1723803783648453.mp4",
+  },
+
+  {
     title: "Todofy",
     href: "https://github.com/ducheharsh/todo_app",
     dates: "Jan 2024 - Feb 2024",
