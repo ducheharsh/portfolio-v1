@@ -10,7 +10,7 @@ export default function Image3D() {
           <CardBody>
             <CardItem translateZ="100" className="w-full mt-4 ml-32">
               <Image
-                src="/dev.jpeg"
+                src="/dev.png"
                 height="1000"
                 width="1000"
                 className="h-96 w-96 object-cover rounded-full group-hover/card:shadow-xl"
