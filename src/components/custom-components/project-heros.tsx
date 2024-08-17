@@ -15,9 +15,9 @@ export default function ProjectHeros() {
       </div>
       <div className="h-screen w-fit flex items-center mx-4">
         <div className="flex justify-center items-center flex-col md:p-0 xl:ml-14">
-          <div>
+          <div className=''>
             <div>
-              <div className="md:flex ${myFont.className} w-fit px-3">
+              <div className="md:flex ${myFont.className} w-fit ">
               <div>
                 <BlurFadeText
                   text={`👋`}
