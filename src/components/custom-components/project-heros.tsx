@@ -17,19 +17,26 @@ export default function ProjectHeros() {
         <div className="flex justify-center items-center flex-col md:p-0 xl:ml-14">
           <div>
             <div>
-              <div className="md:flex ${myFont.className} w-fit px-1">
+              <div className="md:flex ${myFont.className} w-fit px-3">
+              <div>
+                <BlurFadeText
+                  text={`👋`}
+                  delay={0.2}
+                  className={`xl:text-9xl md:text-9xl md:mt-6 md:mr-6 xl:mt-6 ${myFont.className} xl:mr-4 text-7xl text-white font-[800] w-fit opacity-95 `}
+                ></BlurFadeText>
+                </div>
                 <div>
                 <BlurFadeText
-                  text="👋 I'm,"
+                  text={`I'm,`}
                   delay={0.2}
-                  className={`xl:text-9xl mt-6 ${myFont.className} xl:mr-2 text-9xl text-white font-[800] w-fit opacity-95 `}
+                  className={`xl:text-9xl mt-6 ${myFont.className} xl:mr-4  text-9xl text-white font-[800] w-fit opacity-95 `}
                 ></BlurFadeText>
                 </div>
                 <div className=''>
                 <BlurFadeText
                   text="Harsh"
                   delay={0.2}
-                  className={`xl:text-[160px] text-orange-400 ${myFont.className} flex text-9xl mt-6 md:mt-0 xl:mt-0  font-[800] w-fit opacity-95 `}
+                  className={`xl:text-[160px] text-orange-400 ${myFont.className} flex text-9xl mt-5 md:mt- xl:mt-0  font-[800] w-fit opacity-95 `}
                 ></BlurFadeText>
                 </div>
               </div>
