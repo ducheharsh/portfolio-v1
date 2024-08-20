@@ -5,7 +5,7 @@ import { MyDock } from "@/components/custom-components/mydock";
 import ImageCarasoule from "@/components/custom-components/image-carasoule";
 import ProjectHeros from "@/components/custom-components/project-heros";
 import ProjectMarque from "@/components/custom-components/project-marque";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default async function HeroHighlightDemo() {
   return (
     <div className="min-h-fit min-w-screen m-0 bg-black bg-grid-white/[0.2] relative ">
