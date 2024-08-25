@@ -9,8 +9,8 @@ import Meteors from "../magicui/meteors";
 const myFont = localFont({ src: '../fonts/Monograf.ttf' })
 export default function ProjectHeros() {
   return (
-    <div>
-      <div className="xl:block hidden">
+    <div className='overflow-hidden max-w-screen'>
+      <div className="xl:block hidden overflow-hidden w-fit">
         <Meteors number={50} />
       </div>
       <div className="h-screen w-fit flex items-center mx-4">

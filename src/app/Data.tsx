@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 
 export const Content = [
   {
-    title: "SIH 2022 Winner",
+    title: "SIH 2023 Winner",
     description: (
       <div className="container xl:mx-auto p-4">
         <ul className="space-y-2">
@@ -16,7 +16,7 @@ export const Content = [
             them. 🏆
           </li>
           <li className="flex items-center">
-            As the team leader of CoderCrew2 (SIH 2022 Winner), I have honed my
+            As the team leader of CoderCrew2 (SIH 2023 Winner), I have honed my
             leadership skills. 🥇
           </li>
         </ul>
@@ -174,7 +174,7 @@ export const projects = [
     link: "https://reactjs.org",
   },
   {
-    src: "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
+    src: "https://www.svgrepo.com/show/452075/node-js.svg",
     title: "Node JS",
     description:
       "An open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser, often used for server-side programming.",
@@ -188,7 +188,7 @@ export const projects = [
     link: "https://www.oracle.com/database/what-is-database/",
   },
   {
-    src: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+    src: "https://www.svgrepo.com/show/342062/next-js.svg",
     title: "Next JS",
     description:
       "A React framework that enables server-side rendering and generating static websites, offering features like file-based routing and API routes for full-stack React applications.",
@@ -202,7 +202,7 @@ export const projects = [
     link: "https://www.prisma.io",
   },
   {
-    src: "https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png",
+    src: "https://www.svgrepo.com/show/452192/docker.svg",
     title: "Docker",
     description:
       "A platform for developing, shipping, and running applications in containers, allowing for consistent environments across different development and deployment stages.",
