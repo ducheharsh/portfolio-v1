@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   publisher: "Harsh Duche",
   openGraph: {
     title: "Harsh Duche | Portfolio",
-    description: "Harsh Duche's Portfolio",
+    description: "21 | SDE Intern @EC | SIH'23 Winner | Tech enthusiast | Full Stack Developer | Exploring Open Source culture and community 💻✨",
     url: "https://harshduche.com",
     siteName: "Harsh Duche",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Harsh Duche | Portfolio",
-    description: "Harsh Duche's Portfolio",
+    description: "21 | SDE Intern @EC | SIH'23 Winner | Tech enthusiast | Full Stack Developer | Exploring Open Source culture and community 💻✨",
     images: ["dev.png"],
   },
   metadataBase: new URL("https://harshduche.com"),
